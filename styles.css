@@ -1,0 +1,189 @@
+/* Basic reset and page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for consistent width */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.game-banner {
+    background-color: #444;
+    padding: 60px 0;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Main content area */
+main {
+    margin: 0 auto;
+}
+
+/* Zebra striping for sections */
+.game-section {
+    padding: 60px 0;
+}
+
+.game-section:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+.game-section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+/* Hero section */
+.hero {
+    background-color: #2c3e50 !important;
+    color: white;
+}
+
+/* Two column layout */
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Feature grid */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Info boxes */
+.info-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Game preview */
+.game-preview {
+    background-color: #444;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+}
+
+/* Requirements columns */
+.requirements {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.req-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* CTA section */
+.cta {
+    background-color: #3498db !important;
+    color: white;
+    text-align: center;
+}
+
+.pre-order-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.pre-order-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.pre-order-button:hover {
+    background-color: #c0392b;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .two-column, .feature-grid {
+        flex-direction: column;
+    }
+    
+    .column, .feature-card {
+        width: 100%;
+    }
+} 
