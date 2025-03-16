@@ -18,16 +18,24 @@ body {
 /* Header styling */
 header {
     background-color: #333;
-    color: white;
+    color: white ;
     text-align: center;
     padding: 1rem 0;
 }
 
+.title{
+    color: rgb(31, 64, 155) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .game-banner {
     background-color: #444;
-    padding: 60px 0;
+    padding: 300px 0;
     margin-top: 20px;
     color: white;
+    background-image: url("subnautica-2-early\ access.jpg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
 }
 
 /* Main content area */
